@@ -7,8 +7,8 @@
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar1.jpg">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar1.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar1.jif">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar1.jif">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
@@ -360,15 +360,6 @@
 
 
 
-{# 鼠标点击特效 #}
-{% if theme.cursor_effect == "fireworks" %}
-  <script async src="/js/fireworks.js"></script>
-{% elseif theme.cursor_effect == "explosion" %}
-  <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
-  <script src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-  <script async src="/js/explosion.min.js"></script>
-{% elseif theme.cursor_effect == "love" %}
-  <script async src="/js/love.min.js"></script>
-{% endif %}
+
 </body>
 </html>
